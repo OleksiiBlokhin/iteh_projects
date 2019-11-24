@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>laba2var2</title>
+    <style type="text/css"> h2 {color: #6e5f5e;} </style>
+    <link href="../styles_lb2.css" type="text/css" rel="stylesheet">
+
+
+    <style>
+        /* Имя класса указывается в селекторе правила после имени тэга и отделяется от него точкой */
+        p.four_1_class {
+            font-family: arial, helvetica, sans-serif;
+            color: maroon;
+        }
+        /* Значение идентификатора указывается в селекторе через знак # */
+        div#four_2_id {
+            background-color: silver;
+        }
+    </style>
+</head>
+<h1 style="color:red;">1inline-описание (используется атрибут style)</h1><body>
+<h2>2с помощью контейнера "style"в секции заголовка</h2>
+<h3>3подключить стилевую таблицу, расположенную во внешнем файле</h3>
+
+<p class="four_1_class"> 4.1(CLASS) this is for class</p>
+
+<div id="four_2_id">4.2(ID) this is for id</div>
+
+<div id="hamster_image">
+    <p>абсолютное позиционирование</p>
+    <img src="../hamster123.jpg " alt="Image" height="100" width="100" >
+
+<div id="cat_image">
+    <p>относительное позиционирование</p>
+    <img src="../cat.jpg" alt="Image" height="100" width="100" >
+
+В данном примере показано добавление свойства float со значением left к тегу "img".
+Это значение выравнивает элемент по левому краю родителя или другого плавающего элемента,
+а все остальные элементы, вроде текста, обтекают его по правой стороне.
+Значение right, наоборот, выравнивает элемент по правому краю родителя или другого плавающего элемента,
+а все остальные элементы, вроде текста, обтекают его по левой стороне.
+</div>
+</div>
+<div class="flex-container-top">
+    <div>1</div>
+    <div class="big-square" >2</div>
+    <div>3</div>
+</div>
+<div class="flex-container-bottom">
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+
+</div>
+
+
+<!--<div class="square-set">-->
+<!--    <figure class="square square-1"></figure>-->
+<!--    <figure class="square square-2"></figure>-->
+<!--    <figure class="big-square big_sc-3"></figure>-->
+<!--    <figure class="square square-4"></figure>-->
+<!--    <figure class="square square-5"></figure>-->
+<!--    <figure class="square square-6"></figure>-->
+<!--</div>-->
+</body>
+</html>
