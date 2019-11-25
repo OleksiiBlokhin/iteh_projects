@@ -1,0 +1,107 @@
+h3 {
+    color: darkgreen;
+}
+
+#hamster_image {
+    position:absolute;
+    top: 250px;
+    left: 50px;
+}
+
+#cat_image {
+    position:relative;
+    left: 400px;
+    bottom: 200px;
+    float: left;
+}
+
+.flex-container-top {
+    align-self: center;
+    top : 200px;
+    left: 10px;
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    height: 100px;
+}
+.flex-container-top > div {
+    background-color: blue;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+}
+.big-square{
+    position: relative;
+    height: 180px;
+}
+
+
+.flex-container-bottom {
+    align-self: center;
+    top : 300px;
+    left: 10px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    height: 100px;
+}
+.flex-container-bottom > div {
+    background-color: blue;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+/*.square-set {*/
+/*    color: WHITE;*/
+/*    background: darkgrey;*/
+/*    top: 200px;*/
+/*    left: 800px;*/
+/*    height: 300px;*/
+/*    position: relative;*/
+/*    border-radius: 15px;*/
+/*    width: 400px;*/
+
+/*}*/
+/*.square {*/
+/*    background: blue;*/
+/*    height: 80px;*/
+/*    position: absolute;*/
+/*    width: 80px;*/
+/*    line-height: 60px;*/
+/*}*/
+/*.big-square {*/
+/*    background: blue;*/
+/*    height: 170px;*/
+/*    position: absolute;*/
+/*    width: 80px;*/
+/*    line-height: 60px;*/
+/*}*/
+/*.square-1 {*/
+/*    top: 15px;*/
+/*    left: auto;*/
+/*}*/
+/*.square-2 {*/
+/*    top: 15px;*/
+/*    right: 40px;*/
+/*}*/
+/*.big_sc-3 {*/
+/*    top: 15px;*/
+/*    right: 140px;*/
+/*}*/
+/*.square-4 {*/
+/*    bottom: -15px;*/
+/*    left: auto;*/
+/*}*/
+/*.square-5 {*/
+/*    bottom: -15px;*/
+/*    right: 140px;*/
+/*}*/
+/*.square-6 {*/
+/*    bottom: -15px;*/
+/*    right: 40px;*/
+/*}*/
