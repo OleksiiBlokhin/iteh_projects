@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title> lab3</title>
+    <style>
+        .ImageButtons{
+            height:10px;
+            width:30px;
+        }
+        .buttonP
+        {
+            height: 100px;
+            width: 70px;
+        }
+    </style>
+</head>
+<html>
+<body>
+
+<img align="left" id="myImg" src="hamster123.jpg" width="200" height="200" alt="f">
+<img align="right" id="myImg1" src="cat.jpg" width="200" height="200" alt="f">
+<img align="middle" id="myImg2" src="image2.jpg" width="200" height="200" alt="f">
+
+<p class="imageChangingTitle">button to change image</p>
+
+<button class="ImageButtons" onclick="changeWidth()"></button>
+<button class="ImageButtons" onclick="changeHeight()"></button>
+<button class="ImageButtons" onclick="normal()"></button>
+<script>
+    function changeWidth() {
+        document.getElementById("myImg").width = "100";
+        document.getElementById("myImg1").width = "100";
+        document.getElementById("myImg2").width = "100";
+    }
+</script>
+<script>
+
+    function changeHeight() {
+        document.getElementById("myImg").height = "100";
+        document.getElementById("myImg1").height = "100";
+        document.getElementById("myImg2").height = "100";
+    }
+</script>
+<script>
+    function normal() {
+        document.getElementById("myImg").height = "200";
+        document.getElementById("myImg1").height = "200";
+        document.getElementById("myImg2").height = "200";
+        document.getElementById("myImg").width = "200";
+        document.getElementById("myImg1").width = "200";
+        document.getElementById("myImg2").width = "200";
+    }
+</script>
+
+<button class="buttonP" style="float: right;" onclick="changePosition1()">UP</button>
+<button class="buttonP" style="float: right;" onclick="changePosition2()">DOWN</button>
+<script>
+    function changePosition1() {
+        document.getElementById("myImg").align = "right";
+    }
+    function changePosition2() {
+        document.getElementById("myImg1").align = "left";
+    }
+</script>
+</body>
+</html>
